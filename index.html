@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Maker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="meme-maker">
+        <label>Select an Image</label>
+        <input type="file" id="imageFileInput" accept=".png, .jpg, .jpeg">
+
+        <a href="#" download="" id="saveImage">
+            <button id="btnSaveImage">Save Image</button>
+        </a>
+
+        <label>Top text</label>
+        <input type="text" id="topTextInput">
+
+        <label>Bottom text</label>
+        <input type="text" id="bottomTextInput">
+
+        <canvas id="meme"></canvas>
+
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

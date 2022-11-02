@@ -1,0 +1,25 @@
+.meme-maker{
+    margin: 20px auto;
+    width: 400px;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+#meme{
+    margin-top: 10px;
+    width: 100%;
+}
+
+#btnSaveImage{
+    margin-top: 10px;
+}
